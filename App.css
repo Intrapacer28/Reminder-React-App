@@ -1,0 +1,42 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-content {
+  max-width: 800px;
+  width: 100%;
+}
+
+.App h1 {
+  margin-top: 50px;
+  color: #333;
+}
+
+.my-reminders-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.my-reminders-container li {
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.selected-reminder-details {
+  margin-top: 20px;
+}
